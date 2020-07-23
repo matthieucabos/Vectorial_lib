@@ -328,12 +328,13 @@ cdef class Vector():
         double angle
 
     def __cinit__(self,*arg):
-        if(len(arg)==6):
+        if(len(arg)==6 or len(arg)==1):
             self.x=Point(arg[0],arg[1],arg[2])
             self.y=Point(arg[3],arg[4],arg[5])
-        else:
+        elif(len(arg)==2):
             self.x=arg[0]
             self.y=arg[1]
+
 
     # getters and setters
     cpdef void setPoints(self,Point x,Point y):
@@ -1380,6 +1381,8 @@ cdef class Vector():
             return np.arccos(self.cos(vec))*57.2958
         else:
             return np.arccos(self.cos(vec))
+
+
 
 def fromPolar(angle,length=1):
     # Return the vector from angle, unit vector as default
