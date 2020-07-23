@@ -35,7 +35,7 @@ Install associated libraries :
  
  To compile it write in the command prompt :
  
- **python setup_cython_3D.py build_ext --inplace**
+ **python setup.py build_ext --inplace**
  
  Once compiled, load the module in python since the current directory with :
  
@@ -54,7 +54,7 @@ or
 
 **make html**         (UNIX users)
 
-or download it at : 
+or download it at : https://drive.google.com/file/d/1fRku_Oj63fl4ugKFSMQTvpiIVDXj3HZ7/view?usp=sharing
 
 I've been working on an high-performance vectorial code to rule standard algebra computation
 on the Anubis calculator from Lenovo.
