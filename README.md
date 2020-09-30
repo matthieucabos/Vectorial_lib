@@ -7,7 +7,7 @@ A Python vectorial library
 
 **Date** : *30/09/2020*
 
-**Organization** : **INRA-CNRS**
+**Organization** : **INRAE-CNRS**
 
 Introduction
 ------------
