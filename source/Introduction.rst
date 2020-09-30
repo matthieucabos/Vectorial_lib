@@ -1,7 +1,11 @@
 Introduction
 ============
 
-Here is my new version of the Vectorial library.
+
+
+Installation
+------------
+
 To setup manually :
 
 	* Install all prerequires as following :
