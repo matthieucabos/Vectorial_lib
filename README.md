@@ -1,5 +1,4 @@
-# Vectorial_lib
-A Python vectorial library
+![](https://spinati.com/wp-content/uploads/2015/03/logo-cnrs.png)
 
 # Algebra_3D module
 
